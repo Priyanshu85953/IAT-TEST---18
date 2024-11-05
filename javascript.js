@@ -3,7 +3,7 @@
 let totalMinutes = 181; // 120 minutes
 let timeLeft = totalMinutes * 60; // Convert minutes to seconds
 let timerId;
-let timerKey = 'IAT TEST - 18'; // Unique key for the 120-min timer
+let timerKey = 'IAT TEST - 18.'; // Unique key for the 120-min timer
 
 // Check if there is a saved time in localStorage
 if (localStorage.getItem(timerKey)) {
@@ -620,7 +620,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Prompt the user for their name, keep prompting until a valid name is entered
         let userName = "";
         while (!userName) {
-            userName = prompt("Please enter your name (This is required):");
+            userName = prompt("Please enter your Email id (This is required):");
         }
         
         // Append the name to both messages
@@ -655,7 +655,7 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .then(function(response) {
             console.log("SUCCESS!", response.status, response.text);
-            alert("Email sent successfully!");
+            alert("THANK YOU!!");
         }, function(error) {
             console.log("FAILED...", error);
             alert("Failed to send email.");
@@ -672,7 +672,7 @@ document.addEventListener('DOMContentLoaded', function () {
             Body: emailMessage
         })
         .then(function(response) {
-            alert("THANK YOU!");
+            // alert("THANK YOU!");
         })
         .catch(function(error) {
             console.error("Error sending email:", error);

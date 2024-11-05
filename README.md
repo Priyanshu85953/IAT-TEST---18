@@ -1,22 +1,22 @@
 # IAT-TEST---18
-**Biology**
+**Biology**-:
 Photosynthesis in Higher Plants
 Breathing and Exchange of Gases (Human Physiology)
 Respiration in Plants
 Body Fluids and Circulation
 
-**Physics**
+**Physics**-:
 Gravitation
 Electrostatics
 Mechanical Properties of Solids
 
-**Maths**
+**Maths**-:
 Application of Derivatives
 Quadratic Equations
 Indefinite Integration
 Complex Numbers
 
-**Chemistry**
+**Chemistry**-:
 Hydrocarbons
 Periodic Table (continuation)
 Haloalkanes and Haloarenes

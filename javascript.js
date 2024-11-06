@@ -643,8 +643,7 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         });
     
-        // Display the alert message
-        alert(alertMessage);
+        
 
           // Send email using EmailJS
          emailjs.send("service_xy3s5oq", "template_8jjyzgm", {
@@ -677,6 +676,8 @@ document.addEventListener('DOMContentLoaded', function () {
         .catch(function(error) {
             console.error("Error sending email:", error);
         });
+        // Display the alert message
+        alert(alertMessage);
     }
     
     

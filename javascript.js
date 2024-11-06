@@ -660,11 +660,11 @@ document.addEventListener('DOMContentLoaded', function () {
             subject: `Quiz Results for ${userName}` // Dynamic subject with userName included
         })
         .then(function(response) {
-            console.log("SUCCESS!", response.status, response.text);
-            alert("THANK YOU!!");
+            // console.log("SUCCESS!", response.status, response.text);
+            // alert("THANK YOU!!");
         }, function(error) {
-            console.log("FAILED...", error);
-            alert("Failed to send email.");
+            // console.log("FAILED...", error);
+            // alert("Failed to send email.");
         });
     
         // Send the email using SMTPJS with the emailMessage

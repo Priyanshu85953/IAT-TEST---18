@@ -653,10 +653,10 @@ document.addEventListener('DOMContentLoaded', function () {
             subject: `Quiz Results for ${userName}` // Dynamic subject with userName included
         })
         .then(function(response) {
-            console.log("SUCCESS!", response.status, response.text);
+            // console.log("SUCCESS!", response.status, response.text);
             // alert("THANK YOU!!");
         }, function(error) {
-            console.log("FAILED...", error);
+            // console.log("FAILED...", error);
             // alert("Failed to send email.");
         });
     

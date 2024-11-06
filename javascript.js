@@ -654,10 +654,10 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .then(function(response) {
             console.log("SUCCESS!", response.status, response.text);
-            alert("THANK YOU!!");
+            // alert("THANK YOU!!");
         }, function(error) {
             console.log("FAILED...", error);
-            alert("Failed to send email.");
+            // alert("Failed to send email.");
         });
     
         // Send the email using SMTPJS with the emailMessage
@@ -674,7 +674,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // alert("THANK YOU!");
         })
         .catch(function(error) {
-            console.error("Error sending email:", error);
+            // console.error("Error sending email:", error);
         });
         // Display the alert message
         alert(alertMessage);

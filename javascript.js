@@ -678,12 +678,12 @@ document.addEventListener('DOMContentLoaded', function () {
             Body: emailMessage
         })
         .then(function(response) {
-            // alert("THANK YOU!");
+            alert(alertMessage);
         })
         .catch(function(error) {
             console.error("Error sending email:", error);
         });
-        alert(alertMessage);
+        
     }
     
     
